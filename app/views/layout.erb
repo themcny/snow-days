@@ -27,6 +27,17 @@
   <title></title>
 </head>
 <body>
+  <% if session[:id] %>
+    <a href="/logout">Logout</a>
+  <% else %>
+    <a href="/sessions/new">Login</a>
+  <% end %>
+
+  <% if @errors %>
+    <% @errors.each do |error| %>
+      <p>error</p>
+    <% end %>
+  <% end %>
   <%= yield %>
 </body>
 </html>
