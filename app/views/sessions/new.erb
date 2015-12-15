@@ -1,0 +1,34 @@
+<% if @errors %>
+  <% @errors.each do |error| %>
+    <% error %>
+  <% end %>
+<% end %>
+<p><strong>Login</strong></p>
+<br>
+<form id="user-login" method="post" action="/sessions">
+  <label>email:</label>
+  <input id="email" type="text" name="email">
+  <br>
+  <label>password:</label>
+  <input id="password" type="password" name="password">
+  <br>
+  <input type="submit" value="login">
+</form>
+<br>
+<br>
+<p><strong>Register</strong></p>
+<form id='register' action='/users' method='post'>
+  <label>name:</label>
+    <input type='text' name='name'>
+  <br>
+  <label>email:</label>
+    <input type='text' name='email'>
+  <br>
+  <label>phone:</label>
+  <input id="phone" type="text" name="phone">
+  <br>
+  <label>password:</label>
+    <input type='password' name='password'>
+  <br>
+  <input type='submit' value='create account'>
+</form>
