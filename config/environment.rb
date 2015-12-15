@@ -21,6 +21,8 @@ require "sinatra/reloader" if development?
 require 'erb'
 require 'bcrypt'
 
+require 'httparty'
+
 require 'dotenv' if development?
 Dotenv.load if development?
 
