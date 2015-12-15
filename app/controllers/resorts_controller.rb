@@ -1,5 +1,6 @@
 get '/resorts' do
   # list resorts
+  @resorts = Resort.all
   erb :'resorts/index'
 end
 
@@ -16,6 +17,7 @@ end
 
 get '/resorts/:id' do
   # specific resort should only work if you login
+  @resort = Resort.find(params[:id])
   erb :"/resorts/show"
 end
 
