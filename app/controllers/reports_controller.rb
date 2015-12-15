@@ -6,19 +6,39 @@ end
 get '/resorts/:resort_id/reports/new' do
   # create new wunderground object
   @resort = Resort.find(params[:resort_id])
-  p "$$$$$$$$$$$$$$$$$$$$$$$$$$"
-
   city = @resort.city
-  p city
   if city.include?(' ')
     city = city.tr!(' ', '_')
   end
-  @snow_day_in = get_snow_day(@resort.state, city)
 
-  if @snow_day_in == nil
-    @snow_day_in = -1
+  current_time = Time.now.utc
+  within = current_time - 24.hours
+
+  case @resort.current_report
+  when nil
+    puts "check nil"
+    @snow_day_in = get_snow_day(@resort.state, city)
+    Report.create!(snow_day: @snow_day_in,
+                   resort_id: @resort.id)
+    @snow_day_in
+  when @resort.current_report.updated_at > within
+    puts "check time"
+    @snow_day_in = get_snow_day(@resort.state, city)
+    Report.create!(snow_day: @snow_day_in)
+  else
+    puts "ELSE"
+    @snow_day_in = @resort.current_report.snow_day
+    # Report.find_by(resort_id: params[:resort_id])
   end
 
+  if @resort.current_report && @resort.current_report.updated_at > within
+    @snow_day_in = get_snow_day(@resort.state, city)
+    if @snow_day_in == nil
+      @snow_day_in = -1
+    end
+  else
+    @snow_day_in = @resort.current_report.snow_day
+  end
   # form for resorts/:resort_id/report
   erb :'reports/new'
 end
