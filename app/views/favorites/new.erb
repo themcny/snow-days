@@ -1,0 +1,9 @@
+<form id='favorites' action="/users/<%= @user.id %>/favorites"method='POST'>
+  <label>Resort Name</label>
+  <select name="resort_id">
+    <% @resorts.each do |resort| %>
+      <option value=<%= resort.id %>> <%= resort.name %></option>
+    <% end %>
+  </select>
+  <input type='Submit' value="submit">
+</form>

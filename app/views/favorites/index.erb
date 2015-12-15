@@ -1,0 +1,7 @@
+<ul>
+<% @favorite_resorts.each do |favorite_resort| %>
+  <li><%= favorite_resort.name %></li>
+<% end %>
+</ul>
+
+<a href="/users/<%= @user.id %>/favorites/new">Add A New Favorite</a>
