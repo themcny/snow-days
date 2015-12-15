@@ -1,0 +1,6 @@
+<p>Snow (in inches):</p>
+<% if @snow_day_in == -1 %>
+  <p>Unable to fetch snow data.</p>
+<% else %>
+  <p><%= @snow_day_in %></p>
+<% end %>

@@ -26,12 +26,12 @@ get '/resorts/:id/edit' do
   erb :"/resorts/edit"
 end
 
-put 'resorts/:id' do
+put '/resorts/:id' do
   # update resort
   redirect "/resorts/#{params[:id]}"
 end
 
-delete 'resorts/:id' do
+delete '/resorts/:id' do
   # delete resort
   redirect '/resorts'
 end
