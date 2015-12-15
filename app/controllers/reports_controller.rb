@@ -17,27 +17,28 @@ get '/resorts/:resort_id/reports/new' do
   case @resort.current_report
   when nil
     puts "check nil"
-    @snow_day_in = get_snow_day(@resort.state, city)
-    Report.create!(snow_day: @snow_day_in,
-                   resort_id: @resort.id)
-    @snow_day_in
+    @snow_data_in = get_snow_data(@resort.state, city)
+    Report.create!(@snow_data_in,
+                   resort_id: @resort.id,)
+    @snow_data_in
   when @resort.current_report.updated_at > within
     puts "check time"
-    @snow_day_in = get_snow_day(@resort.state, city)
-    Report.create!(snow_day: @snow_day_in)
+    @snow_data_in = get_snow_data(@resort.state, city)
+    Report.create!(@snow_data_in,
+                   resort_id: @resort.id,)
   else
     puts "ELSE"
-    @snow_day_in = @resort.current_report.snow_day
+    @snow_data_in = @resort.current_report.snow_day
     # Report.find_by(resort_id: params[:resort_id])
   end
 
   if @resort.current_report && @resort.current_report.updated_at > within
-    @snow_day_in = get_snow_day(@resort.state, city)
-    if @snow_day_in == nil
-      @snow_day_in = -1
+    @snow_data_in = get_snow_data(@resort.state, city)
+    if @snow_data_in == nil
+      @snow_data_in = -1
     end
   else
-    @snow_day_in = @resort.current_report.snow_day
+    @snow_data_in = @resort.current_report.snow_day
   end
   # form for resorts/:resort_id/report
   erb :'reports/new'
