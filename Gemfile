@@ -17,6 +17,11 @@ gem 'bcrypt'
 
 gem 'httparty'
 
+gem 'json'
+
+gem 'wunderground'
+gem 'hirb'
+
 group :test do
   gem 'shoulda-matchers'
   gem 'rack-test'
