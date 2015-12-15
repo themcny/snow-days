@@ -1,0 +1,6 @@
+<h1>Resort List</h1>
+<hr>
+<% @resorts.each do |resort| %>
+  <h3><a href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
+  <p><%= resort.city %>, <%= resort.state %></p>
+<% end %>
