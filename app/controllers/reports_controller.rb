@@ -18,14 +18,16 @@ get '/resorts/:resort_id/reports/new' do
   when nil
     puts "check nil"
     @snow_data_in = get_snow_data(@resort.state, city)
-    Report.create!(@snow_data_in,
-                   resort_id: @resort.id,)
+    report = Report.create!(@snow_data_in)
+    report.update_attributes(resort_id: @resort.id,)
+    report.save
     @snow_data_in
   when @resort.current_report.updated_at > within
     puts "check time"
     @snow_data_in = get_snow_data(@resort.state, city)
-    Report.create!(@snow_data_in,
-                   resort_id: @resort.id,)
+    report = Report.create!(@snow_data_in)
+    report.update_attributes(resort_id: @resort.id,)
+    report.save
   else
     puts "ELSE"
     @snow_data_in = @resort.current_report.snow_day
