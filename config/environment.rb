@@ -21,6 +21,16 @@ require "sinatra/reloader" if development?
 require 'erb'
 require 'bcrypt'
 
+require 'json'
+
+require 'httparty'
+require 'wunderground'
+require 'hirb'
+require 'pp'
+
+require 'dotenv' if development?
+Dotenv.load if development?
+
 # Some helper constants for path-centric logic
 APP_ROOT = Pathname.new(File.expand_path('../../', __FILE__))
 

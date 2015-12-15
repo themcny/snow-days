@@ -15,6 +15,13 @@ gem 'rake'
 gem 'shotgun'
 gem 'bcrypt'
 
+gem 'httparty'
+
+gem 'json'
+
+gem 'wunderground'
+gem 'hirb'
+
 group :test do
   gem 'shoulda-matchers'
   gem 'rack-test'
@@ -25,4 +32,5 @@ end
 group :test, :development do
   gem 'factory_girl'
   gem 'faker'
+  gem 'dotenv'
 end
