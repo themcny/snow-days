@@ -21,7 +21,7 @@ gem 'json'
 
 gem 'wunderground'
 gem 'hirb'
-
+gem 'twilio-ruby'
 group :test do
   gem 'shoulda-matchers'
   gem 'rack-test'
