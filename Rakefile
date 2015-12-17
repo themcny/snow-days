@@ -138,6 +138,32 @@ task "console" do
   exec "irb -r./config/environment"
 end
 
+# add => :enviroment back into line 143 for heroku
+desc "Update Reports"
+task :update_weather_reports  do
+  resorts = Resort.all
+  resorts.each do |resort|
+    city = resort.city
+      if city.include?(' ')
+        city = city.tr!(' ', '_')
+      end
+  @snow_data_in = get_snow_data(resort.state, city)
+  report = Report.create!(@snow_data_in)
+  report.update_attributes(resort_id: resort.id,)
+  end
+end
+
+def get_snow_data(state, city)
+  w_obj = Wunderground.new
+  hash_info = w_obj.forecast_for(state, city)
+  snow_data_hash = {
+    snow_day: hash_info["forecast"]["simpleforecast"]["forecastday"][0]["snow_day"]["in"],
+    snow_allday: hash_info["forecast"]["simpleforecast"]["forecastday"][0]["snow_allday"]["in"],
+    snow_night: hash_info["forecast"]["simpleforecast"]["forecastday"][0]["snow_night"]["in"],
+  }
+  return snow_data_hash
+end
+
 
 # In a production environment like Heroku, RSpec might not
 # be available.  To handle this, rescue the LoadError.
