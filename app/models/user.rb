@@ -3,7 +3,7 @@ class User < ActiveRecord::Base
   validates :email, :phone, uniqueness: true
 
   has_many :favorites
-  has_many :resorts, through: :favorites
+  has_many :favorited_resorts, through: :favorites, source: :resort
 
   include BCrypt
 
