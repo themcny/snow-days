@@ -138,7 +138,6 @@ task "console" do
   exec "irb -r./config/environment"
 end
 
-# add => :enviroment back into line 143 for heroku
 desc "Update Reports"
 task :update_weather_reports  do
   resorts = Resort.all
@@ -163,6 +162,21 @@ def get_snow_data(state, city)
   }
   return snow_data_hash
 end
+desc "Daily Snow Alert"
+task :snow_text do
+  users = User.all
+  users.each do |user|
+    starred_resorts = user.favorited_resorts
+    starred_resorts.each do |favorite|
+      # if favorite.reports.last.snow_day > 0
+        text = TwilioMessager.new
+        message ="#{favorite.name} + has snow! Skip work and be free}"
+        text.make_call({body: message, to:"#{user.phone}"})
+      # end
+    end
+  end
+end
+
 
 
 # In a production environment like Heroku, RSpec might not

@@ -10,9 +10,9 @@ class TwilioMessager
 
   def make_call(options = {})
     @client.messages.create(
-      body: "WE LOVE YOU",
+      body: options.fetch(:body),
       from: "+14156530538",
-      to: "+19176565956"
+      to: options.fetch(:to)
       )
   end
 end
