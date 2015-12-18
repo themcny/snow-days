@@ -13,13 +13,16 @@ get '/oauthcallback' do
     code: params[:code],
     client_id: ENV["GOOGLE_CLIENT_ID"],
     client_secret: ENV["GOOGLE_SECRET"],
-    redirect_uri: "http://snow-days.herokuapp.com//oauthcallback",
+    redirect_uri: "ENV["HOST"]/oauthcallback",
     grant_type: "authorization_code"
   }
   post_repsonse = HTTParty.post("https://accounts.google.com/o/oauth2/token", body: body)
-  p post_repsonse
-  me = HTTParty.get("http://www.googleapis.com/plus/v1/people/me?access_token=#{post_repsonse["access_token"]}")
-
+  me = HTTParty.get("https://www.googleapis.com/plus/v1/people/me?access_token=#{post_repsonse["access_token"]}")
+  email = me.parsed_response["emails"].first
+  email =email["value"]
+  @user = User.find_by(email: email)
+  session[:id]= @user.id
+  redirect "/users/#{@user.id}"
 end
 
 post '/sessions' do
