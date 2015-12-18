@@ -23,7 +23,7 @@ get '/oauthcallback' do
   p me
   email = me.parsed_response["emails"].first
   email =email["value"]
-  @user = User.find_by_or_create(email: email)
+  @user = User.find_or_create_by(email: email)
   session[:id]= @user.id
   redirect "/users/#{@user.id}"
 end
