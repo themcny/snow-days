@@ -18,7 +18,7 @@ gem 'bcrypt'
 gem 'httparty'
 
 gem 'json'
-
+gem 'httparty'
 gem 'wunderground'
 gem 'hirb'
 gem 'twilio-ruby'

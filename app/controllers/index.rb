@@ -1,3 +1,7 @@
 get '/' do
-  erb :index
+  if session.has_key?(:credentials)
+    erb :logged_in
+  else
+    erb :index
+  end
 end
