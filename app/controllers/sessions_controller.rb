@@ -4,7 +4,7 @@ get '/sessions' do
 end
 
 get '/gotogoogle' do
- redirect "https://accounts.google.com/o/oauth2/auth?scope=email%20profile&state=b&redirect_uri=http://snow-days.herokuapp.com/oauthcallback&response_type=code&client_id=#{ENV["GOOGLE_CLIENT_ID"]}"
+ redirect "https://accounts.google.com/o/oauth2/auth?scope=email%20profile&state=b&redirect_uri=#{ENV["HOST"]}/oauthcallback&response_type=code&client_id=#{ENV["GOOGLE_CLIENT_ID"]}"
 end
 
 get '/oauthcallback' do
@@ -13,7 +13,7 @@ get '/oauthcallback' do
     code: params[:code],
     client_id: ENV["GOOGLE_CLIENT_ID"],
     client_secret: ENV["GOOGLE_SECRET"],
-    redirect_uri: "http://snow-days.herokuapp.com/oauthcallback",
+    redirect_uri: "#{ENV["HOST"]}/oauthcallback",
     grant_type: "authorization_code"
   }
   p body[:redirect_uri]
