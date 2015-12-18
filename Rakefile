@@ -168,11 +168,12 @@ task :snow_text do
   users.each do |user|
     starred_resorts = user.favorited_resorts
     starred_resorts.each do |favorite|
-      # if favorite.reports.last.snow_day > 0
+      snow_amount = favorite.reports.last.snow_day
+      if snow_amount > 0.0
         text = TwilioMessager.new
-        message ="#{favorite.name} has snow! Skip work and be free"
+        message ="#{favorite.name} has #{snow_amount} inches of snow! Skip work and be free"
         text.make_call({body: message, to:"#{user.phone}"})
-      # end
+      end
     end
   end
 end

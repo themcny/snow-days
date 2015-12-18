@@ -99,10 +99,11 @@
             <div class="sidebar-nav navbar-collapse">
                 <ul class="nav" id="side-menu">
                     <li>
-                        <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                        <a href="/"><i class="fa fa-dashboard fa-fw"></i> Home</a>
                     </li>
+                    <% if session[:id] %>
                     <li>
-                        <a href="#"><i class="fa fa-sitemap fa-fw"></i> Multi-Level Dropdown<span class="fa arrow"></span></a>
+                        <a href="#"><i class="fa fa-sitemap fa-fw"></i> Favorites<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
                                 <a href="#">Second Level Item</a>
@@ -131,14 +132,30 @@
                         </ul>
                         <!-- /.nav-second-level -->
                     </li>
+                    <% end %>
                     <li>
-                        <a href="#"><i class="fa fa-files-o fa-fw"></i> Sample Pages<span class="fa arrow"></span></a>
+                        <a href="#"><i class="fa fa-files-o fa-fw"></i> Resorts Index<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="blank.html">Blank Page</a>
+                                <a href="#">East Coast</a>
                             </li>
                             <li>
-                                <a href="login.html">Login Page</a>
+                                <a href="#">Midwest</a>
+                            </li>
+                            <li>
+                                <a href="#">The Rockies</a>
+                            </li>
+                            <li>
+                                <a href="#">The Wasatch</a>
+                            </li>
+                            <li>
+                                <a href="#">The Sierras</a>
+                            </li>
+                            <li>
+                                <a href="#">The Cascades</a>
+                            </li>
+                            <li>
+                                <a href="#">Alaska/New Mexico</a>
                             </li>
                         </ul>
                         <!-- /.nav-second-level -->
