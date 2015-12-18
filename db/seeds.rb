@@ -10,11 +10,7 @@ nicole = User.new(name: 'Nicole Yee',
                    phone: '5109821720',)
 nicole.password=('1234')
 nicole.save
-danielle = User.new(name: 'Danielle Cameron',
-                   email: 'danyell85@gmail.com ',
-                   phone: '8057460513',)
-danielle.password=('test')
-danielle.save
+
 
 # snowmass = Resort.create!(name: 'Snowmass',
 #                       city: 'Snowmass',
