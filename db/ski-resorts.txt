@@ -1,72 +1,69 @@
-The Summit at Snoqualmie,Snoqualmie Pass,WA,USA
-Alpental,Snoqualmie Pass,WA,USA
-Summit Central,Snoqualmie Pass,WA,USA
-Summit East,Snoqualmie Pass,WA,USA
-Summit West,Snoqualmie Pass,WA,USA
-Arapahoe Basin,Keystone,CO,USA
-Aspen/Snowmass,Aspen,CO,USA
-Aspen Highlands,Aspen,CO,USA
-Aspen Mountain,Aspen,CO,USA
-Buttermilk,Aspen,CO,USA
-Snowmass,Snowmass,CO,USA
-Beaver Creek Resort,Beaver Creek,CO,USA
-Breckenridge Ski Resort,Breckenridge,CO,USA
-Copper Mountain Resort,Copper Mountain,CO,USA
-Crested Butte Mountain Resort,Mount Crested Butte,CO,USA
-Durango Mountain Resort,Durango,CO,USA
-Echo Mountain Park,Evergreen,CO,USA
-Eldora Mountain Resort,Eldora,CO,USA
-Hesperus Ski Area,Hesperus,CO,USA
-Howelsen Ski Area,Steamboat Springs,CO,USA
-Kendall Mountain,Silverton,CO,USA
-Keystone Resort,Keystone,CO,USA
-Loveland Ski Area,Georgetown,CO,USA
-Loveland Basin Ski Area,Georgetown,CO,USA
-Loveland Valley Ski Area,Georgetown,CO,USA
-Monarch Ski Area,Salida,CO,USA
-Powderhorn Resort,Mesa,CO,USA
-Silverton Mountain,Silverton,CO,USA
-Ski Cooper,Leadville,CO,USA
-SolVista Basin,Granby,CO,USA
-Steamboat Ski Resort,Steamboat Springs,CO,USA
-Sunlight Mountain Resort,Glenwood Springs,CO,USA
-Telluride Ski Resort,Telluride,CO,USA
-Vail Ski Resort,Vail,CO,USA
-Winter Park Resort,Winter Park,CO,USA
-Wolf Creek Ski Area,Pagosa Springs,CO,USA
-Bald Mountain,Pierce,ID,USA
-Bogus Basin,Boise,ID,USA
-Brundage Mountain,McCall,ID,USA
-Cottonwood Butte,Cottonwood,ID,USA
-Kelly Canyon,Ririe,ID,USA
-Little Ski Hill,McCall,ID,USA
-Lost Trail Powder Mountain,North Fork,ID,USA
-Lookout Pass,Mullan,ID,USA
-Magic Mountain,Hansen,ID,USA
-Pebble Creek,Inkom,ID,USA
-Pomerelle,Albion,ID,USA
-Rotarun,Hailey,ID,USA
-Schweitzer Mountain,Sandpoint,ID,USA
-Silver Mountain,Kellogg,ID,USA
-Snowhaven,Grangeville,ID,USA
-Soldier Mountain,Fairfield,ID,USA
-Sun Valley,Ketchum,ID,USA
-Tamarack,Donnelly,ID,USA
-Big Sky,Big Sky,MT,USA
-Blacktail Mountain,Lakeside,MT,USA
-Bridger Bowl,Bozeman,MT,USA
-Discovery,Anaconda,MT,USA
-Great Divide,Marysville,MT,USA
-Lost Trail Powder Mountain,Conner,MT,USA
-Maverick Mountain,Dillon,MT,USA
-Montana Snowbowl,Missoula,MT,USA
-Moonlight Basin,Big Sky,MT,USA
-Red Lodge Mountain Resort,Red Lodge,MT,USA
-Showdown,Neihart,MT,USA
-Teton Pass,Choteau,MT,USA
-Turner Mountain,Libby,MT,USA
-Big Mountain,Whitefish,MT,USA
-Yellowstone Club,Big Sky,MT,USA
+
+Resort,City,State,Country,Region
+Arapahoe Basin,Keystone,CO,USA,Rockies
+Aspen/Snowmass,Aspen,CO,USA,Rockies
+Aspen Highlands,Aspen,CO,USA,Rockies
+Aspen Mountain,Aspen,CO,USA,Rockies
+Buttermilk,Aspen,CO,USA,Rockies
+Snowmass,Snowmass,CO,USA,Rockies
+Beaver Creek Resort,Beaver Creek,CO,USA,Rockies
+Breckenridge Ski Resort,Breckenridge,CO,USA,Rockies
+Copper Mountain Resort,Copper Mountain,CO,USA,Rockies
+Crested Butte Mountain Resort,Mount Crested Butte,CO,USA,Rockies
+Durango Mountain Resort,Durango,CO,USA,Rockies
+Echo Mountain Park,Evergreen,CO,USA,Rockies
+Eldora Mountain Resort,Eldora,CO,USA,Rockies
+Hesperus Ski Area,Hesperus,CO,USA,Rockies
+Howelsen Ski Area,Steamboat Springs,CO,USA,Rockies
+Kendall Mountain,Silverton,CO,USA,Rockies
+Keystone Resort,Keystone,CO,USA,Rockies
+Loveland Ski Area,Georgetown,CO,USA,Rockies
+Loveland Basin Ski Area,Georgetown,CO,USA,Rockies
+Loveland Valley Ski Area,Georgetown,CO,USA,Rockies
+Monarch Ski Area,Salida,CO,USA,Rockies
+Powderhorn Resort,Mesa,CO,USA,Rockies
+Silverton Mountain,Silverton,CO,USA,Rockies
+Ski Cooper,Leadville,CO,USA,Rockies
+SolVista Basin,Granby,CO,USA,Rockies
+Steamboat Ski Resort,Steamboat Springs,CO,USA,Rockies
+Sunlight Mountain Resort,Glenwood Springs,CO,USA,Rockies
+Telluride Ski Resort,Telluride,CO,USA,Rockies
+Vail Ski Resort,Vail,CO,USA,Rockies
+Winter Park Resort,Winter Park,CO,USA,Rockies
+Wolf Creek Ski Area,Pagosa Springs,CO,USA,Rockies
+Bald Mountain,Pierce,ID,USA,Rockies
+Bogus Basin,Boise,ID,USA,Rockies
+Brundage Mountain,McCall,ID,USA,Rockies
+Cottonwood Butte,Cottonwood,ID,USA,Rockies
+Kelly Canyon,Ririe,ID,USA,Rockies
+Little Ski Hill,McCall,ID,USA,Rockies
+Lost Trail Powder Mountain,North Fork,ID,USA,Rockies
+Lookout Pass,Mullan,ID,USA,Rockies
+Magic Mountain,Hansen,ID,USA,Rockies
+Pebble Creek,Inkom,ID,USA,Rockies
+Pomerelle,Albion,ID,USA,Rockies
+Rotarun,Hailey,ID,USA,Rockies
+Schweitzer Mountain,Sandpoint,ID,USA,Rockies
+Silver Mountain,Kellogg,ID,USA,Rockies
+Snowhaven,Grangeville,ID,USA,Rockies
+Soldier Mountain,Fairfield,ID,USA,Rockies
+Sun Valley,Ketchum,ID,USA,Rockies
+Tamarack,Donnelly,ID,USA,Rockies
+Big Sky,Big Sky,MT,USA,Rockies
+Blacktail Mountain,Lakeside,MT,USA,Rockies
+Bridger Bowl,Bozeman,MT,USA,Rockies
+Discovery,Anaconda,MT,USA,Rockies
+Great Divide,Marysville,MT,USA,Rockies
+Lost Trail Powder Mountain,Conner,MT,USA,Rockies
+Maverick Mountain,Dillon,MT,USA,Rockies
+Montana Snowbowl,Missoula,MT,USA,Rockies
+Moonlight Basin,Big Sky,MT,USA,Rockies
+Red Lodge Mountain Resort,Red Lodge,MT,USA,Rockies
+Showdown,Neihart,MT,USA,Rockies
+Teton Pass,Choteau,MT,USA,Rockies
+Turner Mountain,Libby,MT,USA,Rockies
+Big Mountain,Whitefish,MT,USA,Rockies
+Yellowstone Club,Big Sky,MT,USA,Rockies
 Angel Fire Resort,Angel Fire,NM,USA
 Pajarito Mountain,Los Alamos,NM,USA
 Red River Ski Area,Red River,NM,USA
@@ -77,30 +74,30 @@ Taos Ski Valley,Taos,NM,USA
 Sandia Peak,Albuquerque,NM,USA
 Ski Cloudcroft,Cloudcroft,NM,USA
 Mt Aggie Ski Slope,College Station,TX,USA
-Alta,Alta,UT,USA
-Beaver Mountain,Logan Canyon,UT,USA
-Brian Head,Brian Head,UT,USA
-Brighton,Big Cottonwood Canyon,UT,USA
-Cherry Peak Resort,Richmond,UT,USA
-Deer Valley,Park City,UT,USA
-Eagle Point Ski Resort,Beaver,UT,USA
-Park City Mountain Resort,Park City,UT,USA
-Powder Mountain,Eden,UT,USA
-Snowbasin,Huntsville,UT,USA
-Snowbird,Snowbird,UT,USA
-Solitude,Big Cottonwood Canyon,UT,USA
-Sundance,Sundance,UT,USA
-Wolf Mountain,Eden,UT,USA
-Beartooth Pass,Cody,WY,USA
-Big Horn,Ten Sleep,WY,USA
-Grand Targhee,Driggs,WY,USA
-Hogadon,Casper,WY,USA
-Jackson Hole,Teton Village,WY,USA
-Pine Creek,Cokeville,WY,USA
-Snow King,Jackson,WY,USA
-Snowy Range,Centennial,WY,USA
-White Pine,Pinedale,WY,USA
-Sleeping Giant Ski Resort,Cody,WY,USA
+Alta,Alta,UT,USA,Wasatch
+Beaver Mountain,Logan Canyon,UT,USA,Wasatch
+Brian Head,Brian Head,UT,USA,Wasatch
+Brighton,Big Cottonwood Canyon,UT,USA,Wasatch
+Cherry Peak Resort,Richmond,UT,USA,Wasatch
+Deer Valley,Park City,UT,USA,Wasatch
+Eagle Point Ski Resort,Beaver,UT,USA,Wasatch
+Park City Mountain Resort,Park City,UT,USA,Wasatch
+Powder Mountain,Eden,UT,USA,Wasatch
+Snowbasin,Huntsville,UT,USA,Wasatch
+Snowbird,Snowbird,UT,USA,Wasatch
+Solitude,Big Cottonwood Canyon,UT,USA,Wasatch
+Sundance,Sundance,UT,USA,Wasatch
+Wolf Mountain,Eden,UT,USA,Wasatch
+Beartooth Pass,Cody,WY,USA,
+Big Horn,Ten Sleep,WY,USA,
+Grand Targhee,Driggs,WY,USA,
+Hogadon,Casper,WY,USA,
+Jackson Hole,Teton Village,WY,USA,
+Pine Creek,Cokeville,WY,USA,
+Snow King,Jackson,WY,USA,
+Snowy Range,Centennial,WY,USA,
+White Pine,Pinedale,WY,USA,
+Sleeping Giant Ski Resort,Cody,WY,USA,
 Arctic Valley,Anchorage,AK,USA
 Alyeska,Girdwood,AK,USA
 Eaglecrest,Juneau,AK,USA
@@ -109,220 +106,219 @@ Moose Mountain,Fairbanks,AK,USA
 Mount Eyak,Cordova,AK,USA
 Skiland,Fairbanks,AK,USA
 Majestic Heli Ski,Glacier View,AK,USA
-Mount Shasta Ski Park,Mount Shasta,CA,USA
-Alpine Meadows,Tahoe City,CA,USA
-Boreal,Soda Springs,CA,USA
-Donner Ski Ranch,Norden,CA,USA
-Granlibakken,Tahoe City,CA,USA
-Heavenly Ski Resort,South Lake Tahoe,CA,USA
-Homewood,Homewood,CA,USA
-Kirkwood,Kirkwood,CA,USA
-Northstar at Tahoe,Truckee,CA,USA
-Sierra-at-Tahoe,Twin Bridges,CA,USA
-Squaw Valley,Olympic Valley,CA,USA
-Sugar Bowl,Norden,CA,USA
-Soda Springs,Soda Springs,CA,USA
-Tahoe Donner,Truckee,CA,USA
-Badger Pass,Yosemite National Park,CA,USA
-Bear Valley,Angels Camp,CA,USA
-Dodge Ridge,Sonora,CA,USA
-June Mountain,June Lake,CA,USA
-Mammoth,Mammoth Lakes,CA,USA
-China Peak,Lakeshore,CA,USA
-Alta Sierra,Wofford Heights,CA,USA
-Buckhorn Ski and Snowboard Club,Three Points,CA,USA
-Bear Mountain,Big Bear Lake,CA,USA
-Kratka Ridge,Pearblossom,CA,USA
-Mount Baldy Ski Lifts,Mount Baldy,CA,USA
-Mount Waterman,Three Points,CA,USA
-Mountain High,Wrightwood,CA,USA
-Snow Summit,Big Bear Lake,CA,USA
-Snow Valley Mountain Resort,Running Springs,CA,USA
-Diamond Peak,Incline Village,NV,USA
-Las Vegas Ski & Snowboard Resort,Las Vegas,NV,USA
-Mt. Rose,Reno,NV,USA
-Sky Tavern Ski Area,Reno,NV,USA
-Cooper Spur,Parkdale,OR,USA
-Mount Hood Meadows,Government Camp,OR,USA
-Mount Hood Ski Bowl,Government Camp,OR,USA
-Summit Ski Area,Government Camp,OR,USA
-Timberline,Government Camp,OR,USA
-Hoodoo,Sisters,OR,USA
-Mount Bachelor,Bend,OR,USA
-Willamette Pass,Odell Lake,OR,USA
-Anthony Lakes,North Powder,OR,USA
+Mount Shasta Ski Park,Mount Shasta,CA,USA,Sierras
+Alpine Meadows,Tahoe City,CA,USA,Sierras
+Boreal,Soda Springs,CA,USA,Sierras
+Donner Ski Ranch,Norden,CA,USA,Sierras
+Granlibakken,Tahoe City,CA,USA,Sierras
+Heavenly Ski Resort,South Lake Tahoe,CA,USA,Sierras
+Homewood,Homewood,CA,USA,Sierras
+Kirkwood,Kirkwood,CA,USA,Sierras
+Northstar at Tahoe,Truckee,CA,USA,Sierras
+Sierra-at-Tahoe,Twin Bridges,CA,USA,Sierras
+Squaw Valley,Olympic Valley,CA,USA,Sierras
+Sugar Bowl,Norden,CA,USA,Sierras
+Soda Springs,Soda Springs,CA,USA,Sierras
+Tahoe Donner,Truckee,CA,USA,Sierras
+Badger Pass,Yosemite National Park,CA,USA,Sierras
+Bear Valley,Angels Camp,CA,USA,Sierras
+Dodge Ridge,Sonora,CA,USA,Sierras
+June Mountain,June Lake,CA,USA,Sierras
+Mammoth,Mammoth Lakes,CA,USA,Sierras
+China Peak,Lakeshore,CA,USA,Sierras
+Alta Sierra,Wofford Heights,CA,USA,Sierras
+Buckhorn Ski and Snowboard Club,Three Points,CA,USA,Sierras
+Bear Mountain,Big Bear Lake,CA,USA,Sierras
+Kratka Ridge,Pearblossom,CA,USA,Sierras
+Mount Baldy Ski Lifts,Mount Baldy,CA,USA,Sierras
+Mount Waterman,Three Points,CA,USA,Sierras
+Mountain High,Wrightwood,CA,USA,Sierras
+Snow Summit,Big Bear Lake,CA,USA,Sierras
+Snow Valley Mountain Resort,Running Springs,CA,USA,Sierras
+Diamond Peak,Incline Village,NV,USA,Sierras
+Las Vegas Ski & Snowboard Resort,Las Vegas,NV,USA,Sierras
+Mt. Rose,Reno,NV,USA,Sierras
+Sky Tavern Ski Area,Reno,NV,USA,Sierras
+Cooper Spur,Parkdale,OR,USA,Cascades
+Mount Hood Meadows,Government Camp,OR,USA,Cascades
+Mount Hood Ski Bowl,Government Camp,OR,USA,Cascades
+Summit Ski Area,Government Camp,OR,USA,Cascades
+Timberline,Government Camp,OR,USA,Cascades
+Hoodoo,Sisters,OR,USA,Cascades
+Mount Bachelor,Bend,OR,USA,Cascades
+Willamette Pass,Odell Lake,OR,USA,Cascades
+Anthony Lakes,North Powder,OR,USA,Cascades
 Ferguson Ridge—Joseph
-Mt. Ashland,Ashland,OR,USA
-Spout Springs,Tollgate,OR,USA
-Warner Canyon,Lakeview,OR,USA
-49 Degrees North Ski Area,Chewelah,WA,USA
-Badger Mountain Ski Area,Waterville,WA,USA
-Bluewood Ski Area,Dayton,WA,USA
-Crystal Mountain,Enumclaw,WA,USA
-Echo Valley Ski Area,Chelan,WA,USA
-Hurricane Ridge Ski and Snowboard Area,Port Angeles,WA,USA
-Leavenworth Ski Hill,Leavenworth,WA,USA
-Loup Loup Ski Bowl,Twisp,WA,USA
-Meany Lodge,Snoqualmie Pass,WA,USA
-Mission Ridge Ski Area,Wenatchee,WA,USA
-Mount Baker Ski Area,Glacier,WA,USA
-Mount Spokane Ski and Snowboard Park,Spokane,WA,USA
-Sahalie Ski Club,Snoqualmie Pass,WA,USA
-Sitzmark Lifts,Tonasket,WA,USA
-Stevens Pass Ski Area,Stevens Pass,WA,USA
-The Summit at Snoqualmie,Snoqualmie Pass,WA,USA
-Alpental,Snoqualmie Pass,WA,USA
-Summit Central,Snoqualmie Pass,WA,USA
-Summit East,Snoqualmie Pass,WA,USA
-Summit West,Snoqualmie Pass,WA,USA
-White Pass Ski Area,White Pass,WA,USA
-Resort,City,State,Country
-Mohawk Mountain Ski Area,Cornwall,CT,USA
-Mount Southington,Plantsville,CT,USA
-Ski Sundown,New Hartford,CT,USA
-Woodbury Ski Area,Woodbury,CT,USA
-Powder Ridge,Middlefield,CT,USA
-Baker Mountain,Bingham,ME,USA
-Big Rock,Mars Hill,ME,USA
-Big Squaw,Greenville,ME,USA
-Black Mountain of ME,Rumford,ME,USA
-Camden Snow Bowl,Camden,ME,USA
-Eaton Mountain,Skowhegan,ME,USA
-Hermon Mountain,Hermon,ME,USA
-Lonesome Pine Trails,Fort Kent,ME,USA
-Lost Valley,Auburn,ME,USA
-Mount Abram,Greenwood,ME,USA
-Mount Jefferson Ski Area,Lee,ME,USA
-Powderhouse Hill,South Berwick,ME,USA
-Quoggy Jo,Presque Isle,ME,USA
-Saddleback ME,Rangeley,ME,USA
-Shawnee Peak,Bridgton,ME,USA
-Sugarloaf,Carrabassett Valley,ME,USA
-Sunday River,Newry,ME,USA
-Titcomb Mountain,Farmington,ME,USA
-Berkshire East Ski Resort,Charlemont,MA,USA
-Blandford Ski Area,Blandford,MA,USA
-Blue Hills Ski Area,Canton,MA,USA
-Bousquet Ski Area,Pittsfield,MA,USA
-Cranmore Mountain,Conway,MA,USA
-Butternut,Great Barrington,MA,USA
-Jiminy Peak,Hancock,MA,USA
-Nashoba Valley Ski Area,Westford,MA,USA
-Otis Ridge,Otis,MA,USA
-Ski Bradford,Haverhill,MA,USA
-Ski Ward,Shrewsbury,MA,USA
-Wachusett Mountain,Princeton,MA,USA
-Arrowhead,Claremont,NH,USA
-Attitash,Bartlett,NH,USA
-Black Mountain,Jackson,NH,USA
-Bretton Woods,Bretton Woods,NH,USA
-Cannon Mountain,Franconia Notch,NH,USA
-Cranmore Mountain Resort,North Conway,NH,USA
-Crotched Mountain,Bennington,NH,USA
-Dartmouth Skiway,Lyme,NH,USA
-Granite Gorge,Keene,NH,USA
-Gunstock Mountain Resort,Gilford,NH,USA
-King Pine,EAst Madison,NH,USA
-Loon Mountain,Lincoln,NH,USA
-McIntyre Ski Area,Manchester,NH,USA
-Mount Prospect,Lancaster,NH,USA
-Mount Sunapee Resort,Sunapee,NH,USA
-Pats Peak,Henniker,NH,USA
-Ragged Mountain,Danbury,NH,USA
-Tenney Mountain Ski Resort,Plymouth,NH,USA
-Waterville Valley Resort,Waterville Valley,NH,USA
-Whaleback,Enfield,NH,USA
-Wildcat Mountain,Pinkham Notch,NH,USA
-Yawgoo Valley,Exeter,RI,USA
-Bear Creek Mountain Club,Pymouth,VT,USA
-Bolton Valley Resort,Bolton Valley,VT,USA
-Bromley Mountain,Peru,VT,USA
-Burke Mountain,East Burke,VT,USA
-Cochrans Ski Area,Richmond,VT,USA
-Jay Peak Resort,Jay,VT,USA
-Killington Ski Resort,Killington,VT,USA
-Mad River Glen,Fayston,VT,USA
-Magic Mountain,Londonderry,VT,USA
-Middlebury College Snow Bowl,Hancock,VT,USA
-Mount Snow,West Dover,VT,USA
-Okemo Mountain,Ludlow,VT,USA
-Pico Mountain,Kilington,VT,USA
-Quechee Lakes Ski Area,Quechee,VT,USA
-Smugglers Notch,Jeffersonville,VT,USA
-Stowe Mountain Resort,Stowe,VT,USA
-Stratton Mountain Resort,Stratton Mountain,VT,USA
-Sugarbush Resort,Warren,VT,USA
-Suicide Six,South Pomfret,VT,USA
-Wisp Ski Resort,McHenry,MD,USA
-Campgaw Mountain,Mahwah,NJ,USA
-Hidden Valley,Vernon,NJ,USA
-Mountain Creek,Vernon,NJ,USA
-Beartown Ski Area,Plattsburg,NY,USA
-Bellayre Ski Center,Highmount,NY,USA
-Big Tupper Ski Area,Tupper Lake,NY,USA
-Brantling Ski Slopes,Sodus,NY,USA
-Bristol Mountain Ski Resort,South Bristol,NY,USA
-Buffalo Ski Club,Colden,NY,USA
-Catamount Ski Area,Hillsdale,NY,USA
-Dry Hill Ski Area,Watertown,NY,USA
-Gore Mountain,North Creek,NY,USA
-Greek Peak,Virgil,NY,USA
-Holiday Valley,Ellicottville,NY,USA
-Holiday Mountain Ski and Fun,Monticello,NY,USA
-Holimont,Ellicottville,NY,USA
-Hunter Mountain,Hunter,NY,USA
-Kissing Bridge,Colden,NY,USA
-Labrador Mountain,Truxton,NY,USA
-Mount Peter Ski Area,Warwick,NY,USA
-McCauley Mountain,Old Forge,NY,USA
-Peek n Peak,Clymer,NY,USA
-Plattekill Mountain,Roxbury,NY,USA
-Royal Mountain,Caroga Lake,NY,USA
-Song Mountain Resort,Tully,NY,USA
-Snow Ridge Ski Resort,Turin,NY,USA
-Swain,Swain,NY,USA
-Thunder Ridge Ski Area,Patterson,NY,USA
-Titus Mountain,Malone,NY,USA
-Toggenburg Mountain,Fabius,NY,USA
-Tuxedo Ridge Ski Center,Tuxedo,NY,USA
-West Mountain,Glens Falls,NY,USA
-Willard Mountain,Greenwich,NY,USA
-Whiteface Mountain,Wilmington,NY,USA
-Windham Mountain,Windham,NY,USA
-Woods Valley Ski Resort,Westernville,NY,USA
-Alpine Mountain Ski and Ride Center,Scranton,PA,USA
-Bear Creek Mountain Resort,Macungie,PA,USA
-Blue Knob All Seasons Resort,Claysburg,PA,USA
-Blue Mountain Ski Area,Palmerton,PA,USA
-Boyce Park,Plum,PA,USA
-Camelback Ski Area,Tannersville,PA,USA
-Eagle Rock Resort,Hazleton,PA,USA
-Elk Mountain,Union Dale,PA,USA
-Hiddon Valley Four Seasons Resort,Hidden Valley,PA,USA
-Jack Frost Big Boulder,Blakeslee,PA,USA
-Liberty Mountain Resort,Carroll Valley,PA,USA
-Mountain View at Edinboro,Edinboro,PA,USA
-Seven Springs Mountain Resort,Seven Springs,PA,USA
-Shawnee Mountain Ski Area,East Stroudsburg,PA,USA
-Ski Big Bear,Lackawaxen,PA,USA
-Ski Denton,Coudersport,PA,USA
-Ski Roundtop,Lewisberry,PA,USA
-Ski Sawmill,Morris,PA,USA
-Montage Mountain Ski Resort,Scranton,PA,USA
-Tussey Mountain Ski Area,State College,PA,USA
-Whitetail Ski Resort,Mercerburg,PA,USA
-Cloudmont Ski and Golf Resort,Mentone,AL,USA
-Appalachia Ski Moutain,Blowing Rock,NC,USA
-Cataloochee Ski Area,Maggie Valley,NC,USA
-Sapphire Valley,Sapphire,NC,USA
-Ski Beech,Beech Mountain,NC,USA
-Sugar Mountain,Sugar Mountain,NC,USA
-Wolf Ridge,Mars Hill,NC,USA
-Ober Gatlinburg,Gatlinburg,TN,USA
-Bryce Resort,Basye-Bryce Mountain,VA,USA
-Massanutten Ski Resort,Massanutten,VA,USA
-The Homestead,Hot Springs,VA,USA
-Wintergreen Resort,Wintergreen,VA,USA
+Mt. Ashland,Ashland,OR,USA,Cascades
+Spout Springs,Tollgate,OR,USA,Cascades
+Warner Canyon,Lakeview,OR,USA,Cascades
+49 Degrees North Ski Area,Chewelah,WA,USA,Cascades
+Badger Mountain Ski Area,Waterville,WA,USA,Cascades
+Bluewood Ski Area,Dayton,WA,USA,Cascades
+Crystal Mountain,Enumclaw,WA,USA,Cascades
+Echo Valley Ski Area,Chelan,WA,USA,Cascades
+Hurricane Ridge Ski and Snowboard Area,Port Angeles,WA,USA,Cascades
+Leavenworth Ski Hill,Leavenworth,WA,USA,Cascades
+Loup Loup Ski Bowl,Twisp,WA,USA,Cascades
+Meany Lodge,Snoqualmie Pass,WA,USA,Cascades
+Mission Ridge Ski Area,Wenatchee,WA,USA,Cascades
+Mount Baker Ski Area,Glacier,WA,USA,Cascades
+Mount Spokane Ski and Snowboard Park,Spokane,WA,USA,Cascades
+Sahalie Ski Club,Snoqualmie Pass,WA,USA,Cascades
+Sitzmark Lifts,Tonasket,WA,USA,Cascades
+Stevens Pass Ski Area,Stevens Pass,WA,USA,Cascades
+The Summit at Snoqualmie,Snoqualmie Pass,WA,USA,Cascades
+Alpental,Snoqualmie Pass,WA,USA,Cascades
+Summit Central,Snoqualmie Pass,WA,USA,Cascades
+Summit East,Snoqualmie Pass,WA,USA,Cascades
+Summit West,Snoqualmie Pass,WA,USA,Cascades
+White Pass Ski Area,White Pass,WA,USA,Cascades
+Mohawk Mountain Ski Area,Cornwall,CT,USA,East Coast
+Mount Southington,Plantsville,CT,USA,East Coast
+Ski Sundown,New Hartford,CT,USA,East Coast
+Woodbury Ski Area,Woodbury,CT,USA,East Coast
+Powder Ridge,Middlefield,CT,USA,East Coast
+Baker Mountain,Bingham,ME,USA,East Coast
+Big Rock,Mars Hill,ME,USA,East Coast
+Big Squaw,Greenville,ME,USA,East Coast
+Black Mountain of ME,Rumford,ME,USA,East Coast
+Camden Snow Bowl,Camden,ME,USA,East Coast
+Eaton Mountain,Skowhegan,ME,USA,East Coast
+Hermon Mountain,Hermon,ME,USA,East Coast
+Lonesome Pine Trails,Fort Kent,ME,USA,East Coast
+Lost Valley,Auburn,ME,USA,East Coast
+Mount Abram,Greenwood,ME,USA,East Coast
+Mount Jefferson Ski Area,Lee,ME,USA,East Coast
+Powderhouse Hill,South Berwick,ME,USA,East Coast
+Quoggy Jo,Presque Isle,ME,USA,East Coast
+Saddleback ME,Rangeley,ME,USA,East Coast
+Shawnee Peak,Bridgton,ME,USA,East Coast
+Sugarloaf,Carrabassett Valley,ME,USA,East Coast
+Sunday River,Newry,ME,USA,East Coast
+Titcomb Mountain,Farmington,ME,USA,East Coast
+Berkshire East Ski Resort,Charlemont,MA,USA,East Coast
+Blandford Ski Area,Blandford,MA,USA,East Coast
+Blue Hills Ski Area,Canton,MA,USA,East Coast
+Bousquet Ski Area,Pittsfield,MA,USA,East Coast
+Cranmore Mountain,Conway,MA,USA,East Coast
+Butternut,Great Barrington,MA,USA,East Coast
+Jiminy Peak,Hancock,MA,USA,East Coast
+Nashoba Valley Ski Area,Westford,MA,USA,East Coast
+Otis Ridge,Otis,MA,USA,East Coast
+Ski Bradford,Haverhill,MA,USA,East Coast
+Ski Ward,Shrewsbury,MA,USA,East Coast
+Wachusett Mountain,Princeton,MA,USA,East Coast
+Arrowhead,Claremont,NH,USA,East Coast
+Attitash,Bartlett,NH,USA,East Coast
+Black Mountain,Jackson,NH,USA,East Coast
+Bretton Woods,Bretton Woods,NH,USA,East Coast
+Cannon Mountain,Franconia Notch,NH,USA,East Coast
+Cranmore Mountain Resort,North Conway,NH,USA,East Coast
+Crotched Mountain,Bennington,NH,USA,East Coast
+Dartmouth Skiway,Lyme,NH,USA,East Coast
+Granite Gorge,Keene,NH,USA,East Coast
+Gunstock Mountain Resort,Gilford,NH,USA,East Coast
+King Pine,EAst Madison,NH,USA,East Coast
+Loon Mountain,Lincoln,NH,USA,East Coast
+McIntyre Ski Area,Manchester,NH,USA,East Coast
+Mount Prospect,Lancaster,NH,USA,East Coast
+Mount Sunapee Resort,Sunapee,NH,USA,East Coast
+Pats Peak,Henniker,NH,USA,East Coast
+Ragged Mountain,Danbury,NH,USA,East Coast
+Tenney Mountain Ski Resort,Plymouth,NH,USA,East Coast
+Waterville Valley Resort,Waterville Valley,NH,USA,East Coast
+Whaleback,Enfield,NH,USA,East Coast
+Wildcat Mountain,Pinkham Notch,NH,USA,East Coast
+Yawgoo Valley,Exeter,RI,USA,East Coast
+Bear Creek Mountain Club,Pymouth,VT,USA,East Coast
+Bolton Valley Resort,Bolton Valley,VT,USA,East Coast
+Bromley Mountain,Peru,VT,USA,East Coast
+Burke Mountain,East Burke,VT,USA,East Coast
+Cochrans Ski Area,Richmond,VT,USA,East Coast
+Jay Peak Resort,Jay,VT,USA,East Coast
+Killington Ski Resort,Killington,VT,USA,East Coast
+Mad River Glen,Fayston,VT,USA,East Coast
+Magic Mountain,Londonderry,VT,USA,East Coast
+Middlebury College Snow Bowl,Hancock,VT,USA,East Coast
+Mount Snow,West Dover,VT,USA,East Coast
+Okemo Mountain,Ludlow,VT,USA,East Coast
+Pico Mountain,Kilington,VT,USA,East Coast
+Quechee Lakes Ski Area,Quechee,VT,USA,East Coast
+Smugglers Notch,Jeffersonville,VT,USA,East Coast
+Stowe Mountain Resort,Stowe,VT,USA,East Coast
+Stratton Mountain Resort,Stratton Mountain,VT,USA,East Coast
+Sugarbush Resort,Warren,VT,USA,East Coast
+Suicide Six,South Pomfret,VT,USA,East Coast
+Wisp Ski Resort,McHenry,MD,USA,East Coast
+Campgaw Mountain,Mahwah,NJ,USA,East Coast
+Hidden Valley,Vernon,NJ,USA,East Coast
+Mountain Creek,Vernon,NJ,USA,East Coast
+Beartown Ski Area,Plattsburg,NY,USA,East Coast
+Bellayre Ski Center,Highmount,NY,USA,East Coast
+Big Tupper Ski Area,Tupper Lake,NY,USA,East Coast
+Brantling Ski Slopes,Sodus,NY,USA,East Coast
+Bristol Mountain Ski Resort,South Bristol,NY,USA,East Coast
+Buffalo Ski Club,Colden,NY,USA,East Coast
+Catamount Ski Area,Hillsdale,NY,USA,East Coast
+Dry Hill Ski Area,Watertown,NY,USA,East Coast
+Gore Mountain,North Creek,NY,USA,East Coast
+Greek Peak,Virgil,NY,USA,East Coast
+Holiday Valley,Ellicottville,NY,USA,East Coast
+Holiday Mountain Ski and Fun,Monticello,NY,USA,East Coast
+Holimont,Ellicottville,NY,USA,East Coast
+Hunter Mountain,Hunter,NY,USA,East Coast
+Kissing Bridge,Colden,NY,USA,East Coast
+Labrador Mountain,Truxton,NY,USA,East Coast
+Mount Peter Ski Area,Warwick,NY,USA,East Coast
+McCauley Mountain,Old Forge,NY,USA,East Coast
+Peek n Peak,Clymer,NY,USA,East Coast
+Plattekill Mountain,Roxbury,NY,USA,East Coast
+Royal Mountain,Caroga Lake,NY,USA,East Coast
+Song Mountain Resort,Tully,NY,USA,East Coast
+Snow Ridge Ski Resort,Turin,NY,USA,East Coast
+Swain,Swain,NY,USA,East Coast
+Thunder Ridge Ski Area,Patterson,NY,USA,East Coast
+Titus Mountain,Malone,NY,USA,East Coast
+Toggenburg Mountain,Fabius,NY,USA,East Coast
+Tuxedo Ridge Ski Center,Tuxedo,NY,USA,East Coast
+West Mountain,Glens Falls,NY,USA,East Coast
+Willard Mountain,Greenwich,NY,USA,East Coast
+Whiteface Mountain,Wilmington,NY,USA,East Coast
+Windham Mountain,Windham,NY,USA,East Coast
+Woods Valley Ski Resort,Westernville,NY,USA,East Coast
+Alpine Mountain Ski and Ride Center,Scranton,PA,USA,East Coast
+Bear Creek Mountain Resort,Macungie,PA,USA,East Coast
+Blue Knob All Seasons Resort,Claysburg,PA,USA,East Coast
+Blue Mountain Ski Area,Palmerton,PA,USA,East Coast
+Boyce Park,Plum,PA,USA,East Coast
+Camelback Ski Area,Tannersville,PA,USA,East Coast
+Eagle Rock Resort,Hazleton,PA,USA,East Coast
+Elk Mountain,Union Dale,PA,USA,East Coast
+Hiddon Valley Four Seasons Resort,Hidden Valley,PA,USA,East Coast
+Jack Frost Big Boulder,Blakeslee,PA,USA,East Coast
+Liberty Mountain Resort,Carroll Valley,PA,USA,East Coast
+Mountain View at Edinboro,Edinboro,PA,USA,East Coast
+Seven Springs Mountain Resort,Seven Springs,PA,USA,East Coast
+Shawnee Mountain Ski Area,East Stroudsburg,PA,USA,East Coast
+Ski Big Bear,Lackawaxen,PA,USA,East Coast
+Ski Denton,Coudersport,PA,USA,East Coast
+Ski Roundtop,Lewisberry,PA,USA,East Coast
+Ski Sawmill,Morris,PA,USA,East Coast
+Montage Mountain Ski Resort,Scranton,PA,USA,East Coast
+Tussey Mountain Ski Area,State College,PA,USA,East Coast
+Whitetail Ski Resort,Mercerburg,PA,USA,East Coast
+Cloudmont Ski and Golf Resort,Mentone,AL,USA,East Coast
+Appalachia Ski Moutain,Blowing Rock,NC,USA,East Coast
+Cataloochee Ski Area,Maggie Valley,NC,USA,East Coast
+Sapphire Valley,Sapphire,NC,USA,East Coast
+Ski Beech,Beech Mountain,NC,USA,East Coast
+Sugar Mountain,Sugar Mountain,NC,USA,East Coast
+Wolf Ridge,Mars Hill,NC,USA,East Coast
+Ober Gatlinburg,Gatlinburg,TN,USA,East Coast
+Bryce Resort,Basye-Bryce Mountain,VA,USA,East Coast
+Massanutten Ski Resort,Massanutten,VA,USA,East Coast
+The Homestead,Hot Springs,VA,USA,East Coast
+Wintergreen Resort,Wintergreen,VA,USA,East Coast
 Canaan Valley Resort,Davis,WV,USA
 Oglebay Resort,Wheeling,WV,USA
 Snowshoe Mountain,Snowshoe,WV,USA
