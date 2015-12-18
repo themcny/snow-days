@@ -7,35 +7,14 @@
   <% elsif resort.state == 'NV' %>
     <h3><a id="sierras" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
     <p><%= resort.city %>, <%= resort.state %></p>
-     <% elsif resort.state == 'OR' %>
+  <% elsif resort.state == 'OR' %>
     <h3><a id="cascades" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
     <p><%= resort.city %>, <%= resort.state %></p>
-     <% elsif resort.state == 'WA' %>
+  <% elsif resort.state == 'WA' %>
     <h3><a id="cascades" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
     <p><%= resort.city %>, <%= resort.state %></p>
-     <% elsif resort.state == 'NV' %>
-    <h3><a id="sierras" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
-    <p><%= resort.city %>, <%= resort.state %></p>
-     <% elsif resort.state == 'NV' %>
-    <h3><a id="sierras" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
-    <p><%= resort.city %>, <%= resort.state %></p>
-     <% elsif resort.state == 'NV' %>
-    <h3><a id="sierras" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
-    <p><%= resort.city %>, <%= resort.state %></p>
-     <% elsif resort.state == 'NV' %>
-    <h3><a id="sierras" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
-    <p><%= resort.city %>, <%= resort.state %></p>
-     <% elsif resort.state == 'NV' %>
-    <h3><a id="sierras" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
-    <p><%= resort.city %>, <%= resort.state %></p>
-     <% elsif resort.state == 'NV' %>
-    <h3><a id="sierras" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
-    <p><%= resort.city %>, <%= resort.state %></p>
-     <% elsif resort.state == 'NV' %>
-    <h3><a id="sierras" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
-    <p><%= resort.city %>, <%= resort.state %></p>
-     <% elsif resort.state == 'NV' %>
-    <h3><a id="sierras" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
+  <% else %>
+    <h3><a id="other" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
     <p><%= resort.city %>, <%= resort.state %></p>
   <% end %>
 <% end %>
