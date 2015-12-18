@@ -13,9 +13,10 @@ get '/oauthcallback' do
     code: params[:code],
     client_id: ENV["GOOGLE_CLIENT_ID"],
     client_secret: ENV["GOOGLE_SECRET"],
-    redirect_uri: "#{ENV["HOST"]}/oauthcallback",
+    redirect_uri: "#{ENV['HOST']}/oauthcallback",
     grant_type: "authorization_code"
   }
+  p body[:redirect_uri]
   post_repsonse = HTTParty.post("https://accounts.google.com/o/oauth2/token", body: body)
   me = HTTParty.get("https://www.googleapis.com/plus/v1/people/me?access_token=#{post_repsonse["access_token"]}")
   email = me.parsed_response["emails"].first
