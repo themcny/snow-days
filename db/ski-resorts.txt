@@ -1,4 +1,12 @@
-
+Summit East,Snoqualmie Pass,WA,USA,Cascades
+Summit West,Snoqualmie Pass,WA,USA,Cascades
+White Pass Ski Area,White Pass,WA,USA,Cascades
+Arapahoe Basin,Keystone,CO,USA,Rockies
+Breckenridge Ski Resort,Breckenridge,CO,USA,Rockies
+Silverton Mountain,Silverton,CO,USA,Rockies
+Heavenly Ski Resort,South Lake Tahoe,CA,USA,Sierras
+Homewood,Homewood,CA,USA,Sierras
+Kirkwood,Kirkwood,CA,USA,Sierras
 Resort,City,State,Country,Region
 Arapahoe Basin,Keystone,CO,USA,Rockies
 Aspen/Snowmass,Aspen,CO,USA,Rockies

@@ -1,9 +1,47 @@
 <h1>Resort List</h1>
 <hr>
 <% @resorts.each do |resort| %>
-  <h3><a href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
-  <p><%= resort.city %>, <%= resort.state %></p>
+  <% if resort.state == 'CA' %>
+    <h3><a id="sierras" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
+    <p><%= resort.city %>, <%= resort.state %></p>
+  <% elsif resort.state == 'NV' %>
+    <h3><a id="sierras" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
+    <p><%= resort.city %>, <%= resort.state %></p>
+     <% elsif resort.state == 'OR' %>
+    <h3><a id="cascades" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
+    <p><%= resort.city %>, <%= resort.state %></p>
+     <% elsif resort.state == 'WA' %>
+    <h3><a id="cascades" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
+    <p><%= resort.city %>, <%= resort.state %></p>
+     <% elsif resort.state == 'NV' %>
+    <h3><a id="sierras" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
+    <p><%= resort.city %>, <%= resort.state %></p>
+     <% elsif resort.state == 'NV' %>
+    <h3><a id="sierras" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
+    <p><%= resort.city %>, <%= resort.state %></p>
+     <% elsif resort.state == 'NV' %>
+    <h3><a id="sierras" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
+    <p><%= resort.city %>, <%= resort.state %></p>
+     <% elsif resort.state == 'NV' %>
+    <h3><a id="sierras" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
+    <p><%= resort.city %>, <%= resort.state %></p>
+     <% elsif resort.state == 'NV' %>
+    <h3><a id="sierras" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
+    <p><%= resort.city %>, <%= resort.state %></p>
+     <% elsif resort.state == 'NV' %>
+    <h3><a id="sierras" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
+    <p><%= resort.city %>, <%= resort.state %></p>
+     <% elsif resort.state == 'NV' %>
+    <h3><a id="sierras" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
+    <p><%= resort.city %>, <%= resort.state %></p>
+     <% elsif resort.state == 'NV' %>
+    <h3><a id="sierras" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
+    <p><%= resort.city %>, <%= resort.state %></p>
+  <% end %>
 <% end %>
+
+
+
 
 <div class="col-lg-6">
   <div class="panel panel-default">
