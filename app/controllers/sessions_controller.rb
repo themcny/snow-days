@@ -13,7 +13,7 @@ get '/oauthcallback' do
     code: params[:code],
     client_id: ENV["GOOGLE_CLIENT_ID"],
     client_secret: ENV["GOOGLE_SECRET"],
-    redirect_uri: "ENV["HOST"]/oauthcallback",
+    redirect_uri: "#{ENV["HOST"]}/oauthcallback",
     grant_type: "authorization_code"
   }
   post_repsonse = HTTParty.post("https://accounts.google.com/o/oauth2/token", body: body)
