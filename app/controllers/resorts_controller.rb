@@ -1,6 +1,25 @@
 get '/resorts' do
   # list resorts
+
+  @cascades = []
+  @sierras = []
+  @ice_coast = []
+  @rockies = []
+  @other = []
   @resorts = Resort.all
+  @resorts.each do |resort|
+    if resort.state == 'CA' || resort.state == 'NV'
+      @sierras << resort
+    elsif resort.state == 'CO'
+      @rockies << resort
+    elsif resort.state == 'OR' || resort.state == 'WA'
+      @cascades << resort
+    elsif resort.state == 'MA' || resort.state == 'ME' || resort.state == 'CT' || resort.state == 'VT'
+      @ice_coast << resort
+    else
+      @other << resort
+    end
+  end
   erb :'resorts/index'
 end
 
