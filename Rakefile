@@ -138,6 +138,46 @@ task "console" do
   exec "irb -r./config/environment"
 end
 
+desc "Update Reports"
+task :update_weather_reports  do
+  resorts = Resort.all
+  resorts.each do |resort|
+    city = resort.city
+      if city.include?(' ')
+        city = city.tr!(' ', '_')
+      end
+  @snow_data_in = get_snow_data(resort.state, city)
+  report = Report.create!(@snow_data_in)
+  report.update_attributes(resort_id: resort.id,)
+  end
+end
+
+def get_snow_data(state, city)
+  w_obj = Wunderground.new
+  hash_info = w_obj.forecast_for(state, city)
+  snow_data_hash = {
+    snow_day: hash_info["forecast"]["simpleforecast"]["forecastday"][0]["snow_day"]["in"],
+    snow_allday: hash_info["forecast"]["simpleforecast"]["forecastday"][0]["snow_allday"]["in"],
+    snow_night: hash_info["forecast"]["simpleforecast"]["forecastday"][0]["snow_night"]["in"],
+  }
+  return snow_data_hash
+end
+desc "Daily Snow Alert"
+task :snow_text do
+  users = User.all
+  users.each do |user|
+    starred_resorts = user.favorited_resorts
+    starred_resorts.each do |favorite|
+      # if favorite.reports.last.snow_day > 0
+        text = TwilioMessager.new
+        message ="#{favorite.name} has snow! Skip work and be free"
+        text.make_call({body: message, to:"#{user.phone}"})
+      # end
+    end
+  end
+end
+
+
 
 # In a production environment like Heroku, RSpec might not
 # be available.  To handle this, rescue the LoadError.

@@ -1,0 +1,3 @@
+db/seeds.rb
+.env
+client_secret.json

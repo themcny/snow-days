@@ -1,0 +1,10 @@
+<h3><%= @resort.name %></h3>
+<hr>
+<p>Snow (in inches):</p>
+<% @snow_data_in.each do |k, v|%>
+  <% if v == nil %>
+    <p><%= k %>: Unable to fetch snow data.</p>
+  <% else %>
+    <p><%= k %>: <%= v %></p>
+  <% end %>
+<% end %>
