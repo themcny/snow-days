@@ -1,3 +1,181 @@
+The Summit at Snoqualmie,Snoqualmie Pass,WA,USA
+Alpental,Snoqualmie Pass,WA,USA
+Summit Central,Snoqualmie Pass,WA,USA
+Summit East,Snoqualmie Pass,WA,USA
+Summit West,Snoqualmie Pass,WA,USA
+Arapahoe Basin,Keystone,CO,USA
+Aspen/Snowmass,Aspen,CO,USA
+Aspen Highlands,Aspen,CO,USA
+Aspen Mountain,Aspen,CO,USA
+Buttermilk,Aspen,CO,USA
+Snowmass,Snowmass,CO,USA
+Beaver Creek Resort,Beaver Creek,CO,USA
+Breckenridge Ski Resort,Breckenridge,CO,USA
+Copper Mountain Resort,Copper Mountain,CO,USA
+Crested Butte Mountain Resort,Mount Crested Butte,CO,USA
+Durango Mountain Resort,Durango,CO,USA
+Echo Mountain Park,Evergreen,CO,USA
+Eldora Mountain Resort,Eldora,CO,USA
+Hesperus Ski Area,Hesperus,CO,USA
+Howelsen Ski Area,Steamboat Springs,CO,USA
+Kendall Mountain,Silverton,CO,USA
+Keystone Resort,Keystone,CO,USA
+Loveland Ski Area,Georgetown,CO,USA
+Loveland Basin Ski Area,Georgetown,CO,USA
+Loveland Valley Ski Area,Georgetown,CO,USA
+Monarch Ski Area,Salida,CO,USA
+Powderhorn Resort,Mesa,CO,USA
+Silverton Mountain,Silverton,CO,USA
+Ski Cooper,Leadville,CO,USA
+SolVista Basin,Granby,CO,USA
+Steamboat Ski Resort,Steamboat Springs,CO,USA
+Sunlight Mountain Resort,Glenwood Springs,CO,USA
+Telluride Ski Resort,Telluride,CO,USA
+Vail Ski Resort,Vail,CO,USA
+Winter Park Resort,Winter Park,CO,USA
+Wolf Creek Ski Area,Pagosa Springs,CO,USA
+Bald Mountain,Pierce,ID,USA
+Bogus Basin,Boise,ID,USA
+Brundage Mountain,McCall,ID,USA
+Cottonwood Butte,Cottonwood,ID,USA
+Kelly Canyon,Ririe,ID,USA
+Little Ski Hill,McCall,ID,USA
+Lost Trail Powder Mountain,North Fork,ID,USA
+Lookout Pass,Mullan,ID,USA
+Magic Mountain,Hansen,ID,USA
+Pebble Creek,Inkom,ID,USA
+Pomerelle,Albion,ID,USA
+Rotarun,Hailey,ID,USA
+Schweitzer Mountain,Sandpoint,ID,USA
+Silver Mountain,Kellogg,ID,USA
+Snowhaven,Grangeville,ID,USA
+Soldier Mountain,Fairfield,ID,USA
+Sun Valley,Ketchum,ID,USA
+Tamarack,Donnelly,ID,USA
+Big Sky,Big Sky,MT,USA
+Blacktail Mountain,Lakeside,MT,USA
+Bridger Bowl,Bozeman,MT,USA
+Discovery,Anaconda,MT,USA
+Great Divide,Marysville,MT,USA
+Lost Trail Powder Mountain,Conner,MT,USA
+Maverick Mountain,Dillon,MT,USA
+Montana Snowbowl,Missoula,MT,USA
+Moonlight Basin,Big Sky,MT,USA
+Red Lodge Mountain Resort,Red Lodge,MT,USA
+Showdown,Neihart,MT,USA
+Teton Pass,Choteau,MT,USA
+Turner Mountain,Libby,MT,USA
+Big Mountain,Whitefish,MT,USA
+Yellowstone Club,Big Sky,MT,USA
+Angel Fire Resort,Angel Fire,NM,USA
+Pajarito Mountain,Los Alamos,NM,USA
+Red River Ski Area,Red River,NM,USA
+Ski Apache,Ruidoso,NM,USA
+Ski Santa Fe,Santa Fe,NM,USA
+Sipapu,Vadito,NM,USA
+Taos Ski Valley,Taos,NM,USA
+Sandia Peak,Albuquerque,NM,USA
+Ski Cloudcroft,Cloudcroft,NM,USA
+Mt Aggie Ski Slope,College Station,TX,USA
+Alta,Alta,UT,USA
+Beaver Mountain,Logan Canyon,UT,USA
+Brian Head,Brian Head,UT,USA
+Brighton,Big Cottonwood Canyon,UT,USA
+Cherry Peak Resort,Richmond,UT,USA
+Deer Valley,Park City,UT,USA
+Eagle Point Ski Resort,Beaver,UT,USA
+Park City Mountain Resort,Park City,UT,USA
+Powder Mountain,Eden,UT,USA
+Snowbasin,Huntsville,UT,USA
+Snowbird,Snowbird,UT,USA
+Solitude,Big Cottonwood Canyon,UT,USA
+Sundance,Sundance,UT,USA
+Wolf Mountain,Eden,UT,USA
+Beartooth Pass,Cody,WY,USA
+Big Horn,Ten Sleep,WY,USA
+Grand Targhee,Driggs,WY,USA
+Hogadon,Casper,WY,USA
+Jackson Hole,Teton Village,WY,USA
+Pine Creek,Cokeville,WY,USA
+Snow King,Jackson,WY,USA
+Snowy Range,Centennial,WY,USA
+White Pine,Pinedale,WY,USA
+Sleeping Giant Ski Resort,Cody,WY,USA
+Arctic Valley,Anchorage,AK,USA
+Alyeska,Girdwood,AK,USA
+Eaglecrest,Juneau,AK,USA
+Hilltop,Anchorage,AK,USA
+Moose Mountain,Fairbanks,AK,USA
+Mount Eyak,Cordova,AK,USA
+Skiland,Fairbanks,AK,USA
+Majestic Heli Ski,Glacier View,AK,USA
+Mount Shasta Ski Park,Mount Shasta,CA,USA
+Alpine Meadows,Tahoe City,CA,USA
+Boreal,Soda Springs,CA,USA
+Donner Ski Ranch,Norden,CA,USA
+Granlibakken,Tahoe City,CA,USA
+Heavenly Ski Resort,South Lake Tahoe,CA,USA
+Homewood,Homewood,CA,USA
+Kirkwood,Kirkwood,CA,USA
+Northstar at Tahoe,Truckee,CA,USA
+Sierra-at-Tahoe,Twin Bridges,CA,USA
+Squaw Valley,Olympic Valley,CA,USA
+Sugar Bowl,Norden,CA,USA
+Soda Springs,Soda Springs,CA,USA
+Tahoe Donner,Truckee,CA,USA
+Badger Pass,Yosemite National Park,CA,USA
+Bear Valley,Angels Camp,CA,USA
+Dodge Ridge,Sonora,CA,USA
+June Mountain,June Lake,CA,USA
+Mammoth,Mammoth Lakes,CA,USA
+China Peak,Lakeshore,CA,USA
+Alta Sierra,Wofford Heights,CA,USA
+Buckhorn Ski and Snowboard Club,Three Points,CA,USA
+Bear Mountain,Big Bear Lake,CA,USA
+Kratka Ridge,Pearblossom,CA,USA
+Mount Baldy Ski Lifts,Mount Baldy,CA,USA
+Mount Waterman,Three Points,CA,USA
+Mountain High,Wrightwood,CA,USA
+Snow Summit,Big Bear Lake,CA,USA
+Snow Valley Mountain Resort,Running Springs,CA,USA
+Diamond Peak,Incline Village,NV,USA
+Las Vegas Ski & Snowboard Resort,Las Vegas,NV,USA
+Mt. Rose,Reno,NV,USA
+Sky Tavern Ski Area,Reno,NV,USA
+Cooper Spur,Parkdale,OR,USA
+Mount Hood Meadows,Government Camp,OR,USA
+Mount Hood Ski Bowl,Government Camp,OR,USA
+Summit Ski Area,Government Camp,OR,USA
+Timberline,Government Camp,OR,USA
+Hoodoo,Sisters,OR,USA
+Mount Bachelor,Bend,OR,USA
+Willamette Pass,Odell Lake,OR,USA
+Anthony Lakes,North Powder,OR,USA
+Ferguson Ridge—Joseph
+Mt. Ashland,Ashland,OR,USA
+Spout Springs,Tollgate,OR,USA
+Warner Canyon,Lakeview,OR,USA
+49 Degrees North Ski Area,Chewelah,WA,USA
+Badger Mountain Ski Area,Waterville,WA,USA
+Bluewood Ski Area,Dayton,WA,USA
+Crystal Mountain,Enumclaw,WA,USA
+Echo Valley Ski Area,Chelan,WA,USA
+Hurricane Ridge Ski and Snowboard Area,Port Angeles,WA,USA
+Leavenworth Ski Hill,Leavenworth,WA,USA
+Loup Loup Ski Bowl,Twisp,WA,USA
+Meany Lodge,Snoqualmie Pass,WA,USA
+Mission Ridge Ski Area,Wenatchee,WA,USA
+Mount Baker Ski Area,Glacier,WA,USA
+Mount Spokane Ski and Snowboard Park,Spokane,WA,USA
+Sahalie Ski Club,Snoqualmie Pass,WA,USA
+Sitzmark Lifts,Tonasket,WA,USA
+Stevens Pass Ski Area,Stevens Pass,WA,USA
+The Summit at Snoqualmie,Snoqualmie Pass,WA,USA
+Alpental,Snoqualmie Pass,WA,USA
+Summit Central,Snoqualmie Pass,WA,USA
+Summit East,Snoqualmie Pass,WA,USA
+Summit West,Snoqualmie Pass,WA,USA
+White Pass Ski Area,White Pass,WA,USA
 Resort,City,State,Country
 Mohawk Mountain Ski Area,Cornwall,CT,USA
 Mount Southington,Plantsville,CT,USA
@@ -271,176 +449,3 @@ Arizona Snowbowl,Flagstaff,AZ,USA
 Elk Ridge Ski Area,Williams,AZ,USA
 Mount Lemmon Ski Valley,Summerhaven,AZ,USA
 Sunrise Park Resort,Greer,AZ,USA
-Arapahoe Basin,Keystone,CO,USA
-Aspen/Snowmass,Aspen,CO,USA
-Aspen Highlands,Aspen,CO,USA
-Aspen Mountain,Aspen,CO,USA
-Buttermilk,Aspen,CO,USA
-Snowmass,Snowmass,CO,USA
-Beaver Creek Resort,Beaver Creek,CO,USA
-Breckenridge Ski Resort,Breckenridge,CO,USA
-Copper Mountain Resort,Copper Mountain,CO,USA
-Crested Butte Mountain Resort,Mount Crested Butte,CO,USA
-Durango Mountain Resort,Durango,CO,USA
-Echo Mountain Park,Evergreen,CO,USA
-Eldora Mountain Resort,Eldora,CO,USA
-Hesperus Ski Area,Hesperus,CO,USA
-Howelsen Ski Area,Steamboat Springs,CO,USA
-Kendall Mountain,Silverton,CO,USA
-Keystone Resort,Keystone,CO,USA
-Loveland Ski Area,Georgetown,CO,USA
-Loveland Basin Ski Area,Georgetown,CO,USA
-Loveland Valley Ski Area,Georgetown,CO,USA
-Monarch Ski Area,Salida,CO,USA
-Powderhorn Resort,Mesa,CO,USA
-Silverton Mountain,Silverton,CO,USA
-Ski Cooper,Leadville,CO,USA
-SolVista Basin,Granby,CO,USA
-Steamboat Ski Resort,Steamboat Springs,CO,USA
-Sunlight Mountain Resort,Glenwood Springs,CO,USA
-Telluride Ski Resort,Telluride,CO,USA
-Vail Ski Resort,Vail,CO,USA
-Winter Park Resort,Winter Park,CO,USA
-Wolf Creek Ski Area,Pagosa Springs,CO,USA
-Bald Mountain,Pierce,ID,USA
-Bogus Basin,Boise,ID,USA
-Brundage Mountain,McCall,ID,USA
-Cottonwood Butte,Cottonwood,ID,USA
-Kelly Canyon,Ririe,ID,USA
-Little Ski Hill,McCall,ID,USA
-Lost Trail Powder Mountain,North Fork,ID,USA
-Lookout Pass,Mullan,ID,USA
-Magic Mountain,Hansen,ID,USA
-Pebble Creek,Inkom,ID,USA
-Pomerelle,Albion,ID,USA
-Rotarun,Hailey,ID,USA
-Schweitzer Mountain,Sandpoint,ID,USA
-Silver Mountain,Kellogg,ID,USA
-Snowhaven,Grangeville,ID,USA
-Soldier Mountain,Fairfield,ID,USA
-Sun Valley,Ketchum,ID,USA
-Tamarack,Donnelly,ID,USA
-Big Sky,Big Sky,MT,USA
-Blacktail Mountain,Lakeside,MT,USA
-Bridger Bowl,Bozeman,MT,USA
-Discovery,Anaconda,MT,USA
-Great Divide,Marysville,MT,USA
-Lost Trail Powder Mountain,Conner,MT,USA
-Maverick Mountain,Dillon,MT,USA
-Montana Snowbowl,Missoula,MT,USA
-Moonlight Basin,Big Sky,MT,USA
-Red Lodge Mountain Resort,Red Lodge,MT,USA
-Showdown,Neihart,MT,USA
-Teton Pass,Choteau,MT,USA
-Turner Mountain,Libby,MT,USA
-Big Mountain,Whitefish,MT,USA
-Yellowstone Club,Big Sky,MT,USA
-Angel Fire Resort,Angel Fire,NM,USA
-Pajarito Mountain,Los Alamos,NM,USA
-Red River Ski Area,Red River,NM,USA
-Ski Apache,Ruidoso,NM,USA
-Ski Santa Fe,Santa Fe,NM,USA
-Sipapu,Vadito,NM,USA
-Taos Ski Valley,Taos,NM,USA
-Sandia Peak,Albuquerque,NM,USA
-Ski Cloudcroft,Cloudcroft,NM,USA
-Mt Aggie Ski Slope,College Station,TX,USA
-Alta,Alta,UT,USA
-Beaver Mountain,Logan Canyon,UT,USA
-Brian Head,Brian Head,UT,USA
-Brighton,Big Cottonwood Canyon,UT,USA
-Cherry Peak Resort,Richmond,UT,USA
-Deer Valley,Park City,UT,USA
-Eagle Point Ski Resort,Beaver,UT,USA
-Park City Mountain Resort,Park City,UT,USA
-Powder Mountain,Eden,UT,USA
-Snowbasin,Huntsville,UT,USA
-Snowbird,Snowbird,UT,USA
-Solitude,Big Cottonwood Canyon,UT,USA
-Sundance,Sundance,UT,USA
-Wolf Mountain,Eden,UT,USA
-Beartooth Pass,Cody,WY,USA
-Big Horn,Ten Sleep,WY,USA
-Grand Targhee,Driggs,WY,USA
-Hogadon,Casper,WY,USA
-Jackson Hole,Teton Village,WY,USA
-Pine Creek,Cokeville,WY,USA
-Snow King,Jackson,WY,USA
-Snowy Range,Centennial,WY,USA
-White Pine,Pinedale,WY,USA
-Sleeping Giant Ski Resort,Cody,WY,USA
-Arctic Valley,Anchorage,AK,USA
-Alyeska,Girdwood,AK,USA
-Eaglecrest,Juneau,AK,USA
-Hilltop,Anchorage,AK,USA
-Moose Mountain,Fairbanks,AK,USA
-Mount Eyak,Cordova,AK,USA
-Skiland,Fairbanks,AK,USA
-Majestic Heli Ski,Glacier View,AK,USA
-Mount Shasta Ski Park,Mount Shasta,CA,USA
-Alpine Meadows,Tahoe City,CA,USA
-Boreal,Soda Springs,CA,USA
-Donner Ski Ranch,Norden,CA,USA
-Granlibakken,Tahoe City,CA,USA
-Heavenly Ski Resort,South Lake Tahoe,CA,USA
-Homewood,Homewood,CA,USA
-Kirkwood,Kirkwood,CA,USA
-Northstar at Tahoe,Truckee,CA,USA
-Sierra-at-Tahoe,Twin Bridges,CA,USA
-Squaw Valley,Olympic Valley,CA,USA
-Sugar Bowl,Norden,CA,USA
-Soda Springs,Soda Springs,CA,USA
-Tahoe Donner,Truckee,CA,USA
-Badger Pass,Yosemite National Park,CA,USA
-Bear Valley,Angels Camp,CA,USA
-Dodge Ridge,Sonora,CA,USA
-June Mountain,June Lake,CA,USA
-Mammoth,Mammoth Lakes,CA,USA
-China Peak,Lakeshore,CA,USA
-Alta Sierra,Wofford Heights,CA,USA
-Buckhorn Ski and Snowboard Club,Three Points,CA,USA
-Bear Mountain,Big Bear Lake,CA,USA
-Kratka Ridge,Pearblossom,CA,USA
-Mount Baldy Ski Lifts,Mount Baldy,CA,USA
-Mount Waterman,Three Points,CA,USA
-Mountain High,Wrightwood,CA,USA
-Snow Summit,Big Bear Lake,CA,USA
-Snow Valley Mountain Resort,Running Springs,CA,USA
-Diamond Peak,Incline Village,NV,USA
-Las Vegas Ski & Snowboard Resort,Las Vegas,NV,USA
-Mt. Rose,Reno,NV,USA
-Sky Tavern Ski Area,Reno,NV,USA
-Cooper Spur,Parkdale,OR,USA
-Mount Hood Meadows,Government Camp,OR,USA
-Mount Hood Ski Bowl,Government Camp,OR,USA
-Summit Ski Area,Government Camp,OR,USA
-Timberline,Government Camp,OR,USA
-Hoodoo,Sisters,OR,USA
-Mount Bachelor,Bend,OR,USA
-Willamette Pass,Odell Lake,OR,USA
-Anthony Lakes,North Powder,OR,USA
-Ferguson Ridge—Joseph
-Mt. Ashland,Ashland,OR,USA
-Spout Springs,Tollgate,OR,USA
-Warner Canyon,Lakeview,OR,USA
-49 Degrees North Ski Area,Chewelah,WA,USA
-Badger Mountain Ski Area,Waterville,WA,USA
-Bluewood Ski Area,Dayton,WA,USA
-Crystal Mountain,Enumclaw,WA,USA
-Echo Valley Ski Area,Chelan,WA,USA
-Hurricane Ridge Ski and Snowboard Area,Port Angeles,WA,USA
-Leavenworth Ski Hill,Leavenworth,WA,USA
-Loup Loup Ski Bowl,Twisp,WA,USA
-Meany Lodge,Snoqualmie Pass,WA,USA
-Mission Ridge Ski Area,Wenatchee,WA,USA
-Mount Baker Ski Area,Glacier,WA,USA
-Mount Spokane Ski and Snowboard Park,Spokane,WA,USA
-Sahalie Ski Club,Snoqualmie Pass,WA,USA
-Sitzmark Lifts,Tonasket,WA,USA
-Stevens Pass Ski Area,Stevens Pass,WA,USA
-The Summit at Snoqualmie,Snoqualmie Pass,WA,USA
-Alpental,Snoqualmie Pass,WA,USA
-Summit Central,Snoqualmie Pass,WA,USA
-Summit East,Snoqualmie Pass,WA,USA
-Summit West,Snoqualmie Pass,WA,USA
-White Pass Ski Area,White Pass,WA,USA
