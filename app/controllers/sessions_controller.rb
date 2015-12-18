@@ -13,7 +13,7 @@ get '/oauthcallback' do
     code: params[:code],
     client_id: ENV["GOOGLE_CLIENT_ID"],
     client_secret: ENV["GOOGLE_SECRET"],
-    redirect_uri: "#{ENV['HOST']}/oauthcallback",
+    redirect_uri: "http://snow-days.herokuapp.com/oauthcallback",
     grant_type: "authorization_code"
   }
   p body[:redirect_uri]
