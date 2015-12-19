@@ -1,4 +1,10 @@
 <h1><%= @resort.name %></h1>
 <h4> City: <%= @resort.city %></h4>
 <h4> State: <%= @resort.state %></h4>
-
+<% if session[:id]  %>
+<form action="/users/:user_id/favorites" method='POST'>
+  <input type='hidden' name="resort_id" value=<%= @resort.id %>>
+  <input type='hidden' name="user_id" value=<%= session[:id] %>>
+  <input type="submit" value="Add Favorite">
+</form>
+<% end %>
