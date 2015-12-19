@@ -107,7 +107,7 @@
                         <ul class="nav nav-second-level">
                             <% current_user.favorites.each do |favs| %>
                             <li>
-                                <a href="users/<%= current_user.id %>/resorts/<%= favs.resort.id %>"><%= favs.resort.name %></a>
+                                <a href="/resorts/<%= favs.resort.id %>"><%= favs.resort.name %></a>
                             </li>
                             <% end %>
                         </ul>
