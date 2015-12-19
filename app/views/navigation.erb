@@ -107,7 +107,7 @@
                         <ul class="nav nav-second-level">
                             <% current_user.favorites.each do |favs| %>
                             <li>
-                                <a href="users/<%= current_user.id %>/resorts/<%= favs.resort.id %>"><%= favs.resort.name %></a>
+                                <a href="/resorts/<%= favs.resort.id %>"><%= favs.resort.name %></a>
                             </li>
                             <% end %>
                         </ul>
@@ -118,25 +118,25 @@
                         <a href="#"><i class="fa fa-files-o fa-fw"></i> Resorts Index<span class="fa-mountain"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="/resorts/index">Ice Coast</a>
+                                <a href="/resorts">Ice Coast</a>
                             </li>
                             <li>
-                                <a href="/resorts/index">Midwest</a>
+                                <a href="/resorts">Midwest</a>
                             </li>
                             <li>
-                                <a href="/resorts/index">The Rockies</a>
+                                <a href="/resorts">The Rockies</a>
                             </li>
                             <li>
-                                <a href="/resorts/index">The Wasatch</a>
+                                <a href="/resorts">The Wasatch</a>
                             </li>
                             <li>
-                                <a href="/resorts/index">The Sierras</a>
+                                <a href="/resorts">The Sierras</a>
                             </li>
                             <li>
-                                <a href="/resorts/index">The Cascades</a>
+                                <a href="/resorts">The Cascades</a>
                             </li>
                             <li>
-                                <a href="/resorts/index">Alaska/New Mexico</a>
+                                <a href="/resorts">Alaska/New Mexico</a>
                             </li>
                         </ul>
                         <!-- /.nav-second-level -->
