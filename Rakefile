@@ -146,6 +146,7 @@ task :update_weather_reports  do
       if city.include?(' ')
         city = city.tr!(' ', '_')
       end
+  sleep 5
   @snow_data_in = get_snow_data(resort.state, city)
   report = Report.create!(@snow_data_in)
   report.update_attributes(resort_id: resort.id,)
