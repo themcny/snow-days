@@ -1,109 +1,57 @@
 <h1>Resort List</h1>
 <hr>
-<% @resorts.each do |resort| %>
-  <% if resort.state == 'CA' %>
-    <h3><a id="sierras" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
-    <p><%= resort.city %>, <%= resort.state %></p>
-  <% elsif resort.state == 'NV' %>
-    <h3><a id="sierras" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
-    <p><%= resort.city %>, <%= resort.state %></p>
-  <% elsif resort.state == 'OR' %>
-    <h3><a id="cascades" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
-    <p><%= resort.city %>, <%= resort.state %></p>
-  <% elsif resort.state == 'WA' %>
-    <h3><a id="cascades" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
-    <p><%= resort.city %>, <%= resort.state %></p>
-  <% else %>
-    <h3><a id="other" href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
-    <p><%= resort.city %>, <%= resort.state %></p>
-  <% end %>
-<% end %>
 
-
-
-
-<div class="col-lg-6">
+<div class="col-lg-18">
   <div class="panel panel-default">
       <div class="panel-heading">
-          Resorts
       </div>
       <!-- /.panel-heading -->
       <div class="panel-body">
           <!-- Nav tabs -->
           <ul class="nav nav-tabs">
-              <li class="active"><a href="#home" data-toggle="tab">Home</a>
+              <li class="active"><a href="#sierras" data-toggle="tab">Sierras</a>
               </li>
-              <li><a href="#profile" data-toggle="tab">Profile</a>
+              <li><a href="#cascades" data-toggle="tab">Cascades</a>
               </li>
-              <li><a href="#messages" data-toggle="tab">Messages</a>
+              <li><a href="#rockies" data-toggle="tab">Rockies</a>
               </li>
-              <li><a href="#settings" data-toggle="tab">Settings</a>
+              <li><a href="#icecoast" data-toggle="tab">Ice Coast</a>
               </li>
-              <li><a href="#new1" data-toggle="tab">Messages</a>
-              </li>
-              <li><a href="#new2" data-toggle="tab">Messages</a>
-              </li>
-              <li><a href="#new3" data-toggle="tab">Messages</a>
-              </li>
-              <li><a href="#new4" data-toggle="tab">Messages</a>
-              </li>
-              <li><a href="#messages" data-toggle="tab">Messages</a>
+              <li><a href="#other" data-toggle="tab">Midwest</a>
               </li>
           </ul>
 
           <!-- Tab panes -->
           <div class="tab-content">
-              <div class="tab-pane fade in active" id="home">
-                  <h4>Home Tab</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="tab-pane fade in active" id="sierras">
+                  <% @sierras.each do |resort| %>
+                    <h3><a href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
+                    <p><%= resort.city %>, <%= resort.state %></p>
+                  <% end %>
               </div>
-              <div class="tab-pane fade" id="profile">
-                  <h4>Profile Tab</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="tab-pane fade" id="cascades">
+                  <% @cascades.each do |resort| %>
+                    <h3><a href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
+                    <p><%= resort.city %>, <%= resort.state %></p>
+                  <% end %>
               </div>
-              <div class="tab-pane fade" id="messages">
-                  <h4>Messages Tab</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="tab-pane fade" id="rockies">
+                  <% @rockies.each do |resort| %>
+                    <h3><a href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
+                    <p><%= resort.city %>, <%= resort.state %></p>
+                  <% end %>
               </div>
-              <div class="tab-pane fade" id="settings">
-                  <h4>Settings Tab</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="tab-pane fade" id="icecoast">
+                  <% @ice_coast.each do |resort| %>
+                    <h3><a href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
+                    <p><%= resort.city %>, <%= resort.state %></p>
+                  <% end %>
               </div>
-              <div class="tab-pane fade" id="new1">
-                  <h4>Messages Tab</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
-              <div class="tab-pane fade" id="new2">
-                  <h4>Messages Tab</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
-              <div class="tab-pane fade" id="new3">
-                  <h4>Messages Tab</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
-              <div class="tab-pane fade" id="new4">
-                  <h4>Messages Tab</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
-              <div class="tab-pane fade" id="new5">
-                  <h4>Messages Tab</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
-              <div class="tab-pane fade" id="messages">
-                  <h4>Messages Tab</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
-              <div class="tab-pane fade" id="messages">
-                  <h4>Messages Tab</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
-              <div class="tab-pane fade" id="messages">
-                  <h4>Messages Tab</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
-              <div class="tab-pane fade" id="messages">
-                  <h4>Messages Tab</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="tab-pane fade" id="other">
+                  <% @other.each do |resort| %>
+                    <h3><a href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
+                    <p><%= resort.city %>, <%= resort.state %></p>
+                  <% end %>
               </div>
           </div>
       </div>
