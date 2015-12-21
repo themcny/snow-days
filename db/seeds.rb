@@ -48,6 +48,7 @@ def file_scrubber(file)
       name: info_array[0],
       city: info_array[1],
       state: info_array[2],
+      region: info_array[4].chomp,
     }
     Resort.create!(info_hash)
   end
