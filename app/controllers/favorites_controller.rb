@@ -43,5 +43,5 @@ delete '/users/:user_id/favorites/:id' do
   # delete favorite
   @favorite = Favorite.find_by(user_id: session[:id], resort_id: @resort.id)
   @favorite.destroy
-  redirect '/favorites'
+  redirect "/resorts/#{params[:id]}"
 end
