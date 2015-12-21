@@ -1,10 +1,18 @@
 <h1><%= @resort.name %></h1>
 <h4> City: <%= @resort.city %></h4>
 <h4> State: <%= @resort.state %></h4>
-<% if session[:id]  %>
-<form action="/users/<%= session[:id] %>/favorites" method='POST'>
-  <input type='hidden' name="resort_id" value=<%= @resort.id %>>
-  <input type='hidden' name="user_id" value=<%= session[:id] %>>
-  <input type="submit" value="Add Favorite">
-</form>
+<% if session[:id] %>
+  <form action="/users/<%= session[:id] %>/favorites" method='POST'>
+    <input type='hidden' name="resort_id" value=<%= @resort.id %>>
+    <input type='hidden' name="user_id" value=<%= session[:id] %>>
+    <input type="submit" value="Add Favorite">
+  </form>
+<% end %>
+
+<% if @favorite %>
+  <form action="/users/<%= session[:id] %>/favorites/<%= @resort.id %>" method='POST'>
+    <input type='hidden' name='_method' value='delete'>
+    <input type='hidden' name='user_id' value=<%= session[:id] %>>
+    <input type='submit' value='Remove Favorite'>
+  </form>
 <% end %>

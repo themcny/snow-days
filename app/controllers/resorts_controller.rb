@@ -1,21 +1,27 @@
 get '/resorts' do
   # list resorts
-
   @cascades = []
   @sierras = []
+  @wasatch = []
   @ice_coast = []
   @rockies = []
+  @midwest = []
+  @tetons = []
   @other = []
   @resorts = Resort.all
   @resorts.each do |resort|
-    if resort.state == 'CA' || resort.state == 'NV'
+    if resort.region == 'Sierras'
       @sierras << resort
-    elsif resort.state == 'CO'
+    elsif resort.region == 'Rockies'
       @rockies << resort
-    elsif resort.state == 'OR' || resort.state == 'WA'
+    elsif resort.region == 'Cascades'
       @cascades << resort
-    elsif resort.state == 'MA' || resort.state == 'ME' || resort.state == 'CT' || resort.state == 'VT'
+    elsif resort.region == 'East Coast'
       @ice_coast << resort
+    elsif resort.region == 'Tetons'
+      @tetons << resort
+    elsif resort.region == 'Wasatch'
+      @wasatch << resort
     else
       @other << resort
     end
@@ -37,6 +43,9 @@ end
 get '/resorts/:id' do
   # specific resort should only work if you login
   @resort = Resort.find(params[:id])
+  if session[:id]
+    @user = User.find(session[:id])
+  end
   erb :"/resorts/show"
 end
 
