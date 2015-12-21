@@ -43,6 +43,8 @@ end
 get '/resorts/:id' do
   # specific resort should only work if you login
   @resort = Resort.find(params[:id])
+  @favorite = Favorite.find_by(user_id: session[:id], resort_id: @resort.id)
+
   if session[:id]
     @user = User.find(session[:id])
   end
