@@ -21,7 +21,7 @@ get '/resorts' do
     elsif resort.region == 'Tetons'
       @tetons << resort
     elsif resort.region == 'Wasatch'
-      @tetons << resort
+      @wasatch << resort
     else
       @other << resort
     end
@@ -43,6 +43,9 @@ end
 get '/resorts/:id' do
   # specific resort should only work if you login
   @resort = Resort.find(params[:id])
+  if session[:id]
+    @user = User.find(session[:id])
+  end
   erb :"/resorts/show"
 end
 

@@ -15,6 +15,10 @@
               </li>
               <li><a href="#rockies" data-toggle="tab">Rockies</a>
               </li>
+              <li><a href="#tetons" data-toggle="tab">Tetons</a>
+              </li>
+              <li><a href="#wasatch" data-toggle="tab">Wasatch</a>
+              </li>
               <li><a href="#icecoast" data-toggle="tab">Ice Coast</a>
               </li>
               <li><a href="#other" data-toggle="tab">Midwest</a>
@@ -37,6 +41,18 @@
               </div>
               <div class="tab-pane fade" id="rockies">
                   <% @rockies.each do |resort| %>
+                    <h3><a href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
+                    <p><%= resort.city %>, <%= resort.state %></p>
+                  <% end %>
+              </div>
+              <div class="tab-pane fade" id="tetons">
+                  <% @tetons.each do |resort| %>
+                    <h3><a href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
+                    <p><%= resort.city %>, <%= resort.state %></p>
+                  <% end %>
+              </div>
+              <div class="tab-pane fade" id="wasatch">
+                  <% @wasatch.each do |resort| %>
                     <h3><a href="resorts/<%= resort.id %>"><%= resort.name %></a></h3>
                     <p><%= resort.city %>, <%= resort.state %></p>
                   <% end %>
