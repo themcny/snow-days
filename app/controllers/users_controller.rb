@@ -19,7 +19,6 @@ post '/users' do
   else
     @errors = @user.errors.full_messages
   end
-  # redirect "/users/#{@user.id}"
 end
 
 get '/users/:id' do
