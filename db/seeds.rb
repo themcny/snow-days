@@ -11,23 +11,6 @@ nicole = User.new(name: 'Nicole Yee',
 nicole.password=('1234')
 nicole.save
 
-
-# snowmass = Resort.create!(name: 'Snowmass',
-#                       city: 'Snowmass',
-#                       state: 'CO',)
-
-# squaw = Resort.create!(name: 'Squaw Valley',
-#                        city: 'Olympic Village',
-#                        state: 'CA',)
-
-# park_city = Resort.create!(name: 'Park City',
-#                            city: 'Salt Lake City',
-#                            state: 'UT',)
-
-# big_sky = Resort.create!(name: 'Big Sky',
-#                          city: 'Big Sky',
-#                          state: 'MT',)
-
 module SkiResortImporter
   def self.import(filename = File.dirname(__FILE__) + "ski-resorts.txt")
     txt_file = File.readlines("db/ski-resorts.txt")
