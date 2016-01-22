@@ -8,7 +8,6 @@ get '/gotogoogle' do
 end
 
 get '/oauthcallback' do
-  p params
   body = {
     code: params[:code],
     client_id: ENV["GOOGLE_CLIENT_ID"],
@@ -16,11 +15,8 @@ get '/oauthcallback' do
     redirect_uri: "#{ENV["HOST"]}/oauthcallback",
     grant_type: "authorization_code"
   }
-  p body
-  p body[:redirect_uri]
   post_repsonse = HTTParty.post("https://accounts.google.com/o/oauth2/token", body: body)
   me = HTTParty.get("https://www.googleapis.com/plus/v1/people/me?access_token=#{post_repsonse["access_token"]}")
-  p me
   email = me.parsed_response["emails"].first
   email =email["value"]
   @user = User.find_or_create_by(email: email)
@@ -38,7 +34,6 @@ post '/sessions' do
     erb :'sessions/new'
     @errors = ['username or password suckssss']
   end
-  # redirect "/sessions/#{@session.id}"
 end
 
 get '/logout' do
