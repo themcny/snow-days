@@ -19,8 +19,6 @@ def file_scrubber(file)
 			city: info_array[1],
 			state: info_array[2],
 		}
-		p info_hash
-		# map_point = Point.create(info_hash)
 	end
 end
 

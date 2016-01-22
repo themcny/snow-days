@@ -31,7 +31,6 @@ get '/resorts/:resort_id/reports/new' do
   else
     puts "ELSE"
     @snow_data_in = @resort.current_report.snow_day
-    # Report.find_by(resort_id: params[:resort_id])
   end
 
   if @resort.current_report && @resort.current_report.updated_at > within
@@ -42,14 +41,12 @@ get '/resorts/:resort_id/reports/new' do
   else
     @snow_data_in = @resort.current_report.snow_day
   end
-  # form for resorts/:resort_id/report
   erb :'reports/new'
 end
 
 post '/resorts/:resort_id/reports' do
   # new resorts/:resort_id/report
   redirect "/resorts/:resort_id/reports"
-  # redirect "/resorts/:resort_id/reports/#{@resorts/:resort_id/report.id}"
 end
 
 get '/resorts/:resort_id/reports/:id' do

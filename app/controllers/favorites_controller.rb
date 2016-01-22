@@ -21,7 +21,6 @@ post '/users/:user_id/favorites' do
   Favorite.create!(user_id: params[:user_id],
                    resort_id: params[:resort_id])
   redirect "/users/#{params[:user_id]}/favorites"
-  # redirect "/favorites/#{@favorite.id}"
 end
 
 get '/users/:user_id/favorites/:id' do
