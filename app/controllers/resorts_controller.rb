@@ -37,7 +37,6 @@ end
 post '/resorts' do
   # new resort
   redirect "/resorts"
-  # redirect "/resorts/#{@resort.id}"
 end
 
 get '/resorts/:id' do
